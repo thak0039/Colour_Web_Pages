@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+nav {
+    padding: 1rem 2rem;
+    margin: 0 2rem;
+    background-color: hsl(158, 24%, 55%);
+    font-size: 2rem;
+    border-bottom: 2rem solid hsl(245, 84%, 36%);
+
+}
+
+nav > a {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav>a:nth-child(1){
+    text-decoration: underline;
+}
+
+header {
+    margin: 0 2rem;
+    padding: 12rem 2rem;
+    font-size:36px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/11.jpg);
+}
+h1,h2{
+    margin: 1.5rem 0;
+}
+p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.Dblue{
+    color: hsl(245, 84%, 36%);
+}
+.blue{
+    color: hsl(120, 100%, 25%);
+}
+
+main{
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+}
+ul{
+    padding-left: 1rem;
+}
